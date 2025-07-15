@@ -13,7 +13,7 @@ require (
 	k8s.io/client-go v0.31.8
 	sigs.k8s.io/controller-runtime v0.19.7
 )
-
+replace golang.org/x/net => golang.org/x/net v0.17.0
 require (
 	dario.cat/mergo v1.0.0 // indirect
 	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
